@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #3a0ca3, #4361ee, #4cc9f0);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.2);
+  width: 300px;
+  text-align: center;
+  color: white;
+}
+
+.input-group {
+  margin: 20px 0;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to right, #ff4d6d, #ff758f);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+}
+
+.blob-1 {
+  width: 200px;
+  height: 200px;
+  background: #21b7ee;
+  top: 10%;
+  left: 10%;
+}
+
+.blob-2 {
+  width: 200px;
+  height: 200px;
+  background: #4cc9f0;
+  bottom: 10%;
+  right: 10%;
+}
